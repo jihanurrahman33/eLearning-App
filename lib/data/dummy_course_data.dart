@@ -1,0 +1,88 @@
+import 'package:elearning_ui/models/course_details_model.dart';
+
+List<CourseDetailsModel> courses = [
+  const CourseDetailsModel(
+    courseImage: 'https://i.ytimg.com/vi/F3JuuYuOUK4/maxresdefault.jpg',
+    courseTitle: 'Introduction to Dart',
+    coursePrice: '\$49.99',
+    courseRating: 4.5,
+    courseDuration: 10,
+    authorName: 'Jane Smith',
+    noOfVideo: 15,
+    description:
+        'Learn the basics of Dart programming in this comprehensive course.',
+  ),
+  const CourseDetailsModel(
+    courseImage: 'https://i.ytimg.com/vi/F3JuuYuOUK4/maxresdefault.jpg',
+    courseTitle: 'Advanced Flutter Development',
+    coursePrice: '\$99.99',
+    courseRating: 4.8,
+    courseDuration: 20,
+    authorName: 'John Doe',
+    noOfVideo: 30,
+    description: 'Master Flutter development with this advanced course.',
+  ),
+  const CourseDetailsModel(
+    courseImage: 'https://i.ytimg.com/vi/F3JuuYuOUK4/maxresdefault.jpg',
+    courseTitle: 'Full Stack Web Development',
+    coursePrice: '\$129.99',
+    courseRating: 4.7,
+    courseDuration: 40,
+    authorName: 'Emily Davis',
+    noOfVideo: 50,
+    description:
+        'Become a full stack web developer by learning both front-end and back-end technologies.',
+  ),
+  const CourseDetailsModel(
+    courseImage: 'https://i.ytimg.com/vi/F3JuuYuOUK4/maxresdefault.jpg',
+    courseTitle: 'Data Science with Python',
+    coursePrice: '\$79.99',
+    courseRating: 4.6,
+    courseDuration: 25,
+    authorName: 'Michael Johnson',
+    noOfVideo: 35,
+    description: 'Dive into data science with Python in this detailed course.',
+  ),
+  const CourseDetailsModel(
+    courseImage: 'https://i.ytimg.com/vi/F3JuuYuOUK4/maxresdefault.jpg',
+    courseTitle: 'Machine Learning A-Z',
+    coursePrice: '\$89.99',
+    courseRating: 4.9,
+    courseDuration: 30,
+    authorName: 'Sarah Lee',
+    noOfVideo: 40,
+    description: 'Learn machine learning from A to Z with practical examples.',
+  ),
+  const CourseDetailsModel(
+    courseImage: 'https://i.ytimg.com/vi/F3JuuYuOUK4/maxresdefault.jpg',
+    courseTitle: 'UI/UX Design Fundamentals',
+    coursePrice: '\$59.99',
+    courseRating: 4.4,
+    courseDuration: 15,
+    authorName: 'David Brown',
+    noOfVideo: 20,
+    description:
+        'Understand the fundamentals of UI/UX design in this beginner-friendly course.',
+  ),
+  const CourseDetailsModel(
+    courseImage: 'https://i.ytimg.com/vi/F3JuuYuOUK4/maxresdefault.jpg',
+    courseTitle: 'Cybersecurity Basics',
+    coursePrice: '\$69.99',
+    courseRating: 4.3,
+    courseDuration: 18,
+    authorName: 'Chris Wilson',
+    noOfVideo: 25,
+    description:
+        'Learn the basics of cybersecurity and protect yourself online.',
+  ),
+  const CourseDetailsModel(
+    courseImage: 'https://i.ytimg.com/vi/F3JuuYuOUK4/maxresdefault.jpg',
+    courseTitle: 'Blockchain Technology Explained',
+    coursePrice: '\$109.99',
+    courseRating: 4.7,
+    courseDuration: 35,
+    authorName: 'Laura Martinez',
+    noOfVideo: 45,
+    description: 'Get a comprehensive understanding of blockchain technology.',
+  ),
+];
